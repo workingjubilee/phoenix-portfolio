@@ -11,7 +11,13 @@ use Mix.Config
 # before starting your production server.
 config :jubileedotdev, JubileedotdevWeb.Endpoint,
   url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  cache_static_manifest: "priv/static/cache_manifest.json",
+   https: [
+    port: 443,
+    otp_app: :jubileedotdev,
+    #     keyfile: System.get_env("SOME_APP_SSL_KEY_PATH"),
+    # certfile: System.get_env("SOME_APP_SSL_CERT_PATH")
+  ]
 
 # Do not print debug messages in production
 config :logger, level: :info

@@ -1,5 +1,5 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
+<section class="github">
+  <h1 class="heading"><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
 </section>
 
@@ -21,6 +21,7 @@
   <article class="column">
     <h2>Help</h2>
     <ul>
+
       <li>
         <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
       </li>

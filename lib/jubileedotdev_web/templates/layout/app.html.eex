@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<%# This embeds Elixir code in an EEx template, and because this is evaluated as Elixir code, it is parsed as a comment by Elixir.  %>
   <head>
     <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Jubileedotdev · Phoenix Framework</title>
+    <title>jubilee.dev</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
   </head>
   <body>
+    <main role="main" class="rainbow">
     <header>
       <section class="container">
         <nav role="navigation">
@@ -15,16 +18,18 @@
             <li><a href="https://hexdocs.pm/phoenix/overview.html">Get Started</a></li>
           </ul>
         </nav>
-        <a href="http://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
-        </a>
+        <h1 class="h">Jubilee</h1>
       </section>
     </header>
-    <main role="main" class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-      <%= render @view_module, @view_template, assigns %>
+      <%= render @view_module, @view_template, assigns # This embeds the view's template from a module %>
     </main>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
+
+
+<!--
+  Conceptually speaking, 
+  -->

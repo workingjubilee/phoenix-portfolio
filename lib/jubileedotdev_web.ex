@@ -1,5 +1,16 @@
 defmodule JubileedotdevWeb do
   @moduledoc """
+  Jubilee's Note:
+
+  other files refer to this one with commands like:
+    use JubileedotdevWeb, :view
+  which invokes the macro defined at the bottom
+    defmacro __using__
+  and then references the atom
+    :view
+  which happens to be defined as a function here
+  to put them both together.
+
   The entrypoint for defining your web interface, such
   as controllers, views, channels and so on.
 
@@ -29,6 +40,9 @@ defmodule JubileedotdevWeb do
 
   def view do
     quote do
+    # https://hexdocs.pm/phoenix/Phoenix.View.html
+    # I believe this macro expands everything inside the folder
+    # into means of constructing renderable html, at least.
       use Phoenix.View,
         root: "lib/jubileedotdev_web/templates",
         namespace: JubileedotdevWeb

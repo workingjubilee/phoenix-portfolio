@@ -14,6 +14,7 @@ config :jubileedotdev,
 config :jubileedotdev, JubileedotdevWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "ZoseDhF8iT7Ai9+WgUDQeH8dmvXyTLwF1pnVPdb0tWNtS0wzmtktWwrm78JYCvTI",
+  debug_errors: false,
   render_errors: [view: JubileedotdevWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Jubileedotdev.PubSub, adapter: Phoenix.PubSub.PG2]
 

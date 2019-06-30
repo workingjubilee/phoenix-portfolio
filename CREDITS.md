@@ -1,0 +1,1 @@
+Icons sourced from https://github.com/simple-icons/simple-icons, credit to various contributors.

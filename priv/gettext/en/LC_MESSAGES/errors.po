@@ -6,6 +6,9 @@
 ##
 ## Use `mix gettext.extract --merge` or `mix gettext.merge`
 ## to merge POT files into PO files.
+##
+## Note to self: gettext is not intended for i18n of documents, just code
+
 msgid ""
 msgstr ""
 "Language: en\n"

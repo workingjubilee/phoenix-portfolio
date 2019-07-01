@@ -7,6 +7,8 @@
 ## Run `mix gettext.extract` to bring this file up to
 ## date. Leave `msgstr`s empty as changing them here has no
 ## effect: edit them in PO (`.po`) files instead.
+##
+## Note to self: gettext is not intended for i18n of documents, just code
 
 ## From Ecto.Changeset.cast/4
 msgid "can't be blank"

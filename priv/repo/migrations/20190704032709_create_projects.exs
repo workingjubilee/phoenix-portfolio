@@ -4,7 +4,6 @@ defmodule Jubileedotdev.Repo.Migrations.CreateProjects do
   def change do
     create table(:projects) do
       add :uri, :string
-      add :repo, :string
       add :image, :string
       add :title, :string
       add :notes, :text

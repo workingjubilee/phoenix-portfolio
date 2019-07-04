@@ -35,3 +35,4 @@ also desired:
   the ability to embed a Python game into the browser
   make all projects interactable-with right then and there
   options: WASM, or using ErlPort + a pool manager
+  Oh hey: https://repl.it/site/docs/repls/embed

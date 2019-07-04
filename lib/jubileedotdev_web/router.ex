@@ -22,18 +22,20 @@ defmodule JubileedotdevWeb.Router do
     # and find it is defined as a function!!
     # and it renders index.html!
     # this is a macro that expands HTTP verbs like get or post into this
-
     # scope becomes root of path!
+
+    # "resources" are used differently
+    resources "/projects", ProjectController
   end
 
-  scope "/projects", JubileedotdevWeb do
-    pipe_through :browser
+  # scope "/projects", JubileedotdevWeb do
+  #   pipe_through :browser
 
-    # scope for displaying projects
-    get "/", PageController, :projects
-    # displays index of projects
-    # specific projects should use more specific routes
-  end
+  #   # scope for displaying projects
+  #   get "/", PageController, :projects
+  #   # displays index of projects
+  #   # specific projects should use more specific routes
+  # end
 
   scope "/explainer", JubileedotdevWeb do
     pipe_through :browser

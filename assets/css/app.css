@@ -1,13 +1,6 @@
 /* This file is for your main application css. */
 
-@import "./phoenix.css";
-
-body {
-  background-color: hsl(288,40%,3%);
-  font-family: 'Alegreya', serif;
-  color: white;
-  margin: 0px;
-}
+@import "./base.css";
 
 .jubilee {
   background-image: url('');
@@ -38,9 +31,18 @@ h1,h2,h3,h4,h5,h6,p {
     midnightblue 66%);
 }
 
-.github {
-  background-image: url('/images/github.svg');
-  background-color: white;
+a.icon {
+  box-sizing: content-box;
+
+}
+
+.icon > *:first-child {
+  box-sizing: content-box;
+  min-height: 50px;
+  min-width: 50px;
+  max-height: 100px;
+  max-width: 100px;
+  color: white;
   filter: invert(100%);
   mix-blend-mode: exclusion;
 }

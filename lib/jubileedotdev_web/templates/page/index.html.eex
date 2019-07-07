@@ -10,6 +10,10 @@
   <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
 </a>
 
+<a href="#" class="icon">
+  <object type="image/svg+xml" data="/images/cloud.svg">Cloud</object>
+</a>
+
 <section class="row">
   <article class="column">
     <h2>Resources</h2>

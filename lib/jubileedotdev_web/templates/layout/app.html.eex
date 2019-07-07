@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main role="main" class="rainbow">
+    <main role="main" class="grid rainbow">
     <header>
       <section class="container">
         <nav role="navigation">

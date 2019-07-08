@@ -1,6 +1,5 @@
-/* This file is for your main application css. */
-
 @import "./base.css";
+@import "./grid.css";
 
 .jubilee {
   background-image: url('');

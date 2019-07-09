@@ -1,47 +1,12 @@
-<a class="icon" href="#" >
+<a href="https://github.com/workingjubilee" class="icon github" >
   <object type="image/svg+xml" data="/images/github.svg">GitHub</object>
 </a>
 
-<a href="#" class="icon" >
+<a href="https://www.linkedin.com/in/jubilee-young/" class="icon linkedin" >
   <object type="image/svg+xml" data="/images/linkedin.svg">LinkedIn</object>
 </a>
 
-<a href="#" class="icon" >
+<a href="https://twitter.com/workingjubilee" class="icon twitter" >
   <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
 </a>
 
-<a href="#" class="icon">
-  <object type="image/svg+xml" data="/images/cloud.svg">Cloud</object>
-</a>
-
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-    </ul>
-  </article>
-</section>

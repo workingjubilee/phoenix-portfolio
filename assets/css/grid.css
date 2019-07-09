@@ -1,6 +1,7 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: [col0] 1fr [col1] 1fr [col2] 1fr [col3] 1fr;
+  grid-template-rows: [row0] 25% [row1] 25% [row2] 25% [row3] 25%;
   justify-items: center;
+  align-items: center;
 }

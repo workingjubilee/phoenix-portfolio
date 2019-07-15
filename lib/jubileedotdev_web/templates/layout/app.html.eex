@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css?family=Alegreya:400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <main role="main" class="grid rainbow">
+  <body class="sky">
+    <div class="rainbow">
+
+    <main role="main" class="grid">
     <header>
         <h1 class="cloud">Jubilee</h1>
     </header>
@@ -18,7 +20,9 @@
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns # This embeds the view's template from a module %>
     </main>
+      </div>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+
   </body>
 </html>
 

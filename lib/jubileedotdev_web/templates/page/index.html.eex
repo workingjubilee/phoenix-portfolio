@@ -1,3 +1,4 @@
+<div class="icon-links">
 <a href="https://github.com/workingjubilee" class="icon github" >
   <object type="image/svg+xml" data="/images/github.svg">GitHub</object>
 </a>
@@ -9,4 +10,9 @@
 <a href="https://twitter.com/workingjubilee" class="icon twitter" >
   <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
 </a>
+</div>
 
+<%= for project <- @projects do %>
+    <div class="cloud"><p>Project noticed</p></div>
+
+<% end %>

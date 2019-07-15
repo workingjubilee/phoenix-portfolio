@@ -3,49 +3,65 @@
 
 .jubilee {
   background-color: hsl(288,40%,3%);
-  background-size: contain;
-  background-repeat: no-repeat;
+
   border-radius: 4rem;
 }
 
-h1,h2,h3,h4,h5,h6,p { 
-  mix-blend-mode: exclusion;
-}
-
-.heading {
-  font-family: 'Rubik', sans-serif;
+h1,h2,h3,h4,h5,h6 { 
+  font-family: 'Rubik', 'Helvetica', sans-serif;
   font-weight: 500;
 }
 
-.rainbow {
-  min-height: 100vh;
-  background: linear-gradient(140deg,
-    midnightblue 45%,
-    hsl(0, 100%, 50%, .85) 48%,
-    hsl(39, 100%, 50%, .85) 51%,
-    hsl(60, 100%, 50%, .85) 54%,
-    hsl(120, 100%, 25%, .85) 57%,
-    hsl(240, 100%, 50%, .85) 60%,
-    hsl(300, 100%, 25%, .85) 63%,
-    midnightblue 66%);
+.sky {
+  background-color: midnightblue
 }
 
+.rainbow {
+  background: radial-gradient(circle 166vh at bottom right,
+    transparent 0%,
+    transparent 44%,
+    hsl(300, 100%, 25%, .99) 47%,
+    hsl(240, 100%, 50%, .99) 50%,
+    hsl(120, 100%, 25%, .99) 53%,
+    hsl(60, 100%, 50%, .99) 56%,  
+    hsl(39, 100%, 50%, .99) 59%,
+    hsl(0, 100%, 50%, .99) 62%,
+    transparent 65%,
+    transparent 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-origin: border-box;
+  /*background-position:;*/
+}
+
+
+
 a.icon {
-  box-sizing: content-box;
   cursor: pointer;
+  padding: 0.5rem;
 }
 
 .icon > *:first-child {
-  box-sizing: content-box;
-  min-height: 100px;
-  min-width: 100px;
-  max-height: 200px;
-  max-width: 200px;
+  min-height: 5rem;
+  min-width: 5rem;
   color: white;
   filter: invert(100%);
   mix-blend-mode: exclusion;
+
 }
 
+.icon-links {
+  grid-column: col3;
+  grid-row: row0;
+
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;  
+  align-self: center;
+}
+
+/*
 .github {
   grid-column: col3;
   grid-row: row0;
@@ -60,14 +76,14 @@ a.icon {
   grid-column: col1;
   grid-row: row2;
 }
+*/
 
 .cloud {
-  background-image: url('/images/cloud.svg');
+  background-image: url('/images/cloud-wide.svg');
   background-repeat: no-repeat;
   padding: 7rem;
-  background-color: black;
   background-size: contain;
-  margin: 0;
+  margin: 0 auto;
 }
 
 object {

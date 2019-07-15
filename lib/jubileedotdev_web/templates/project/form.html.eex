@@ -13,6 +13,10 @@
   <%= text_input f, :image %>
   <%= error_tag f, :image %>
 
+  <%= label f, :repo %>
+  <%= text_input f, :repo %>
+  <%= error_tag f, :repo %>
+
   <%= label f, :title %>
   <%= text_input f, :title %>
   <%= error_tag f, :title %>

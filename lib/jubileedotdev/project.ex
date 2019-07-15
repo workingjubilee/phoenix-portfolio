@@ -16,6 +16,6 @@ defmodule Jubileedotdev.Project do
   def changeset(project, attrs) do
     project
     |> cast(attrs, [:uri, :repo, :image, :title, :notes])
-    |> validate_required([:uri, :repo, :image, :title, :notes])
+    |> validate_required([:title])
   end
 end

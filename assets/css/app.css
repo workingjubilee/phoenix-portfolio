@@ -7,55 +7,72 @@
   border-radius: 4rem;
 }
 
+header {
+  grid-row: row0 / span 1;
+  grid-column: col0 / span 6;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 h1,h2,h3,h4,h5,h6 { 
   font-family: 'Rubik', 'Helvetica', sans-serif;
   font-weight: 500;
 }
 
 .sky {
-  background-color: midnightblue
+  background-color: skyblue;
 }
 
 .rainbow {
+  isolation: isolate;
   background: radial-gradient(circle 166vh at bottom right,
     transparent 0%,
     transparent 44%,
+    transparent 46%,
     hsl(300, 100%, 25%, .99) 47%,
     hsl(240, 100%, 50%, .99) 50%,
     hsl(120, 100%, 25%, .99) 53%,
     hsl(60, 100%, 50%, .99) 56%,  
     hsl(39, 100%, 50%, .99) 59%,
     hsl(0, 100%, 50%, .99) 62%,
-    transparent 65%,
+    transparent 63%,
+    transparent 66%,
     transparent 100%);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-clip: border-box;
   background-origin: border-box;
-  /*background-position:;*/
 }
-
-
 
 a.icon {
   cursor: pointer;
   padding: 0.5rem;
+
+}
+a:-webkit-any-link {
+  color: black;
 }
 
 .icon > *:first-child {
   min-height: 5rem;
   min-width: 5rem;
-  color: white;
-  filter: invert(100%);
   mix-blend-mode: exclusion;
-
+  filter: invert(100%);
 }
 
-.icon-links {
-  grid-column: col3;
-  grid-row: row0;
+.icon > *:first-child:link {
+  color: inherit;
+}
 
-  width: 100%;
+.namebox {
+  width: 20rem;
+}
+
+
+.icon-links {
+  width: 20rem;
   display: flex;
   flex-flow: row-reverse nowrap;  
   align-self: center;
@@ -79,11 +96,18 @@ a.icon {
 */
 
 .cloud {
-  background-image: url('/images/cloud-wide.svg');
+  background-image: url('/images/cloud-white.svg');
+  color: black;
   background-repeat: no-repeat;
   padding: 7rem;
-  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.cloud >*:first-child {
   margin: 0 auto;
+  justify-self: end;
+  z-index: 1;
+  color: hsl(240, 67%, 20%);
 }
 
 object {

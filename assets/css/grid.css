@@ -9,6 +9,7 @@
 }*/
 
 .grid {
+  margin: 0 auto;
   position: relative;
   padding: 1.5vw 1vw 0;
   min-width: 20rem;
@@ -17,7 +18,6 @@
   max-width: 100vw;
   max-height: 100vh;
   display: grid;
-  grid-template-columns: [col0] 1fr [col1] 1fr [col2] 1fr [col3] 1fr;
+  grid-template-columns: [col0] 1fr [col1] 1fr [col2] 1fr [col3] 1fr [col4] 1fr [col5] 1fr;
   grid-template-rows: [row0] 25% [row1] 25% [row2] 25% [row3] 25%;
-  justify-content: baseline;
 }

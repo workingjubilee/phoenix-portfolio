@@ -14,8 +14,22 @@
 
     <main role="main" class="grid">
     <header>
-        <h1 class="cloud">Jubilee</h1>
-    </header>
+        <div class="cloud namebox"><h1>Jubilee</h1></div>
+
+    <div class="icon-links">
+      <a href="https://github.com/workingjubilee" class="icon github" >
+        <object type="image/svg+xml" style="fill:red;" data="/images/github.svg">GitHub</object>
+      </a>
+
+      <a href="https://www.linkedin.com/in/jubilee-young/" class="icon linkedin" >
+        <object type="image/svg+xml" data="/images/linkedin.svg">LinkedIn</object>
+      </a>
+
+      <a href="https://twitter.com/workingjubilee" class="icon twitter" >
+        <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
+      </a>
+    </div>
+</header>
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns # This embeds the view's template from a module %>

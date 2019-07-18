@@ -3,13 +3,12 @@
 
 .jubilee {
   background-color: hsl(288,40%,3%);
-
   border-radius: 4rem;
 }
 
 header {
-  grid-row: row0 / span 1;
-  grid-column: col0 / span 6;
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 8;
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -52,7 +51,7 @@ a.icon {
 
 }
 a:-webkit-any-link {
-  color: black;
+  color: inherit;
 }
 
 .icon > *:first-child {
@@ -69,7 +68,6 @@ a:-webkit-any-link {
 .namebox {
   width: 20rem;
 }
-
 
 .icon-links {
   width: 20rem;
@@ -96,16 +94,18 @@ a:-webkit-any-link {
 */
 
 .cloud {
+  grid-column-end: span 3;
   background-image: url('/images/cloud-white.svg');
   color: black;
   background-repeat: no-repeat;
-  padding: 7rem;
-  background-size: 100% 100%;
+  padding: 4rem;
+  min-width: 5rem;
+  background-size: contain;
+  max-width: 100vw;
 }
 
 .cloud >*:first-child {
-  margin: 0 auto;
-  justify-self: end;
+  margin: 0;
   z-index: 1;
   color: hsl(240, 67%, 20%);
 }
@@ -114,5 +114,41 @@ object {
   pointer-events: none;
 }
 
+/*.projects {
+
+}*/
+
+/*.project.cloud {
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 20rem;
+}*/
+
+.project0 {
+  grid-column-start: 2;
+  grid-column-end: span 5;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+.project1 {
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
+.project2 {
+  grid-column-start: 2;
+  grid-column-end: span 5;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+}
+
+.project3 {
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  grid-row-start: 5;
+  grid-row-end: span 1;
+}
 
 /* background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%); */

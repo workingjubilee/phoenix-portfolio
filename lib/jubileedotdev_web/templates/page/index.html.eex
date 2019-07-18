@@ -1,3 +1,4 @@
+
 <%= for project <- @projects do %>
-    <div class="cloud"><p>Project noticed</p></div>
+    <div class="cloud project0"><p>Project noticed</p></div>
 <% end %>

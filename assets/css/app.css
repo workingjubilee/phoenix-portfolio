@@ -30,14 +30,20 @@ h1,h2,h3,h4,h5,h6 {
     transparent 0%,
     transparent 44%,
     transparent 46%,
-    hsl(300, 100%, 25%, .99) 47%,
-    hsl(240, 100%, 50%, .99) 50%,
-    hsl(120, 100%, 25%, .99) 53%,
-    hsl(60, 100%, 50%, .99) 56%,  
-    hsl(39, 100%, 50%, .99) 59%,
-    hsl(0, 100%, 50%, .99) 62%,
-    transparent 63%,
-    transparent 66%,
+    hsl(300, 100%, 25%, .75) 48%,
+    hsl(300, 100%, 25%, .75) 49%,
+    hsl(240, 100%, 50%, .75) 50%,
+    hsl(240, 100%, 50%, .75) 51%,
+    hsl(120, 100%, 25%, .75) 52%,
+    hsl(120, 100%, 25%, .75) 53%,
+    hsl(60, 100%, 50%, .75) 54%,  
+    hsl(60, 100%, 50%, .75) 55%,  
+    hsl(39, 100%, 50%, .75) 56%,
+    hsl(39, 100%, 50%, .75) 57%,
+    hsl(0, 100%, 50%, .75) 58%,
+    hsl(0, 100%, 50%, .75) 59%,
+    transparent 61%,
+    transparent 67%,
     transparent 100%);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -95,7 +101,7 @@ a:-webkit-any-link {
 
 .cloud {
   grid-column-end: span 3;
-  background-image: url('/images/cloud-white.svg');
+  background-image: url('/images/text-cloud.svg');
   color: black;
   background-repeat: no-repeat;
   padding: 4rem;
@@ -105,7 +111,8 @@ a:-webkit-any-link {
 }
 
 .cloud >*:first-child {
-  margin: 0;
+  text-indent: 1rem;
+  margin: 0 auto;
   z-index: 1;
   color: hsl(240, 67%, 20%);
 }

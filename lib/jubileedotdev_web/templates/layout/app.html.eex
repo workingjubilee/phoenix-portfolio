@@ -10,6 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
   </head>
   <body class="sky">
+    <svg width="0" height="0"> 
+    <filter id="cloudy">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" 
+seed="0" />
+      <feDisplacementMap  in="SourceGraphic" scale="150" />
+  </svg>
     <div class="rainbow">
 
     <main role="main" class="grid">
@@ -18,7 +24,7 @@
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >
-        <object type="image/svg+xml" style="fill:red;" data="/images/github.svg">GitHub</object>
+        <object type="image/svg+xml"  data="/images/github.svg">GitHub</object>
       </a>
 
       <a href="https://www.linkedin.com/in/jubilee-young/" class="icon linkedin" >
@@ -36,6 +42,8 @@
     </main>
       </div>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+
+
 
   </body>
 </html>

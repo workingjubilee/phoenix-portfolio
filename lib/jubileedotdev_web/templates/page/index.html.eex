@@ -1,4 +1,6 @@
 
 <%= for project <- @projects do %>
-    <div class=" project0"><p>Project noticed</p></div>
+    <div class="cloud project0"><h3>RxID</h3>
+      <p><strong>Contributing:</strong> DevOps</p>
+      <p>Produced a continuous integration pipeline combining an ML-driven API served over Flask and a Node.js user backend</p></div>
 <% end %>

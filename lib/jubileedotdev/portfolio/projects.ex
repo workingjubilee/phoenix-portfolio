@@ -2,6 +2,9 @@ defmodule Jubileedotdev.Portfolio.Projects do
   use Ecto.Schema
   import Ecto.Changeset
 
+@moduledoc '''Schema for portfolio projects...?
+  WARNING POSSIBLE DUPLICATE'''
+
   schema "project" do
     field :image, :string
     field :notes, :string

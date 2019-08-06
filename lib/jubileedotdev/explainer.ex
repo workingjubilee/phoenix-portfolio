@@ -2,6 +2,8 @@ defmodule Jubileedotdev.Explainer do
   use Ecto.Schema
   import Ecto.Changeset
 
+  @moduledoc "Schema for how-to and informational posts."
+
   schema "explainers" do
     field :author, :string
     field :body, :string

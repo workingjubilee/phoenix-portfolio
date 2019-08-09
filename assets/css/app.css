@@ -1,0 +1,31 @@
+@import url('grid.css');
+@import url('base.css');
+
+
+a.icon {
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.icon > *:first-child {
+  box-sizing: content-box;
+  min-height: 50px;
+  min-width: 50px;
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 200px;
+  max-width: 200px;
+  filter: invert(100%);
+}
+
+.icon-links {
+  grid-column: col3;
+  grid-row: row0;
+
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-self: center;
+}

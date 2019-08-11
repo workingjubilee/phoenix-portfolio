@@ -6,21 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>jubilee.dev</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya:400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,800&display=swap" rel="stylesheet">
   </head>
-  <body class="sky">
-    <svg width="0" height="0"> 
-    <filter id="cloudy">
-      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" 
-seed="0" />
-      <feDisplacementMap  in="SourceGraphic" scale="150" />
-  </svg>
-    <div class="rainbow">
+  <body>
 
     <main role="main" class="grid">
     <header>
-        <div class="cloud namebox"><h1>Jubilee</h1></div>
+        <div class="my-name"><h1><a href="twitter.com">Jubilee</a></h1></div>
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >

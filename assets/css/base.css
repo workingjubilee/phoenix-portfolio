@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 /*
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,800&display=swap" rel="stylesheet">
+
 <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
 */
 
@@ -27,14 +27,11 @@ body {
   max-height: 100%;
   max-width: 100%;
   margin: 0 auto;
-  font-family: 'Fira Sans', 'Georgia', serif;
-  color: white;
   background-color: black;
-  padding: 1rem;
 }
 
 a {
-  color: deepskyblue;
+  color: inherit;
   text-decoration-color: deeppink;
 }
 
@@ -46,4 +43,10 @@ a:active {}
 .my-name {
   font-size: 2rem;
   font-weight: bolder;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Fira Sans', 'Georgia', serif;
+  color: #EDFEDF;
+  max-width: 40em; /* maintains 3 alphabet rule */
 }

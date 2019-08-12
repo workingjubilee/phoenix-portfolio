@@ -12,7 +12,7 @@
 
     <main role="main" class="grid">
     <header>
-        <div class="my-name"><h1><a href="twitter.com">Jubilee</a></h1></div>
+        <div class="my-name"><h1>☁️Jubilee</h1></div>
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >
@@ -27,6 +27,8 @@
         <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
       </a>
     </div>
+
+    
 </header>
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>

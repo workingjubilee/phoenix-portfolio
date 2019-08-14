@@ -40,16 +40,18 @@ a:visited {}
 a:hover {}
 a:active {}
 
-.my-name {
-  font-size: 2rem;
-  font-weight: bolder;
-  background-image: url(/images/cloud-mark.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 h1,h2,h3,h4,h5,h6,p {
   font-family: 'Fira Sans', 'Georgia', serif;
   color: #EDFEDF;
   max-width: 40em; /* maintains 3 alphabet rule */
+}
+
+.my-name {
+  font-size: 4rem;
+  font-weight: bolder;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  padding: 1rem;
+  text-align: right;
 }

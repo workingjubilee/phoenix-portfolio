@@ -11,8 +11,8 @@
   <body>
 
     <main role="main" class="grid">
-    <header>
-        <div class="my-name"><h1>☁️Jubilee</h1></div>
+        <h1 class="my-name">Jubilee</h1>
+        <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object>
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >
@@ -28,13 +28,11 @@
       </a>
     </div>
 
-    
-</header>
+
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
       <%= render @view_module, @view_template, assigns # This embeds the view's template from a module %>
     </main>
-      </div>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
 
 

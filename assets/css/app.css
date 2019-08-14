@@ -15,16 +15,23 @@ a.icon {
   height: 100%;
   max-height: 4rem;
   max-width: 4rem;
-  filter: invert(100%) sepia(20%);
+  filter: invert(100%);
 
 }
 
 .icon-links {
-  grid-column: col3;
-  grid-row: row0;
 
   width: 100%;
   display: flex;
   flex-flow: row-reverse nowrap;
+  align-self: center;
+}
+
+.cloudmark {
+  grid-area: 1 / 2 / 2 / 3;
+  z-index: -1;
+
+  max-height: 5rem;
+  justify-self: start;
   align-self: center;
 }

@@ -1,6 +1,82 @@
 
-<%= for project <- @projects do %>
-    <div><h3>RxID</h3>
+   <div><h3>RxID</h3>
       <p><strong>Contributing:</strong> DevOps, React.js, Node.js</p>
       <p>Produced a continuous integration pipeline combining an ML-driven API served over Flask and a Node.js user backend</p></div>
-<% end %>
+
+    <div><h3>Open Source</h3>
+      <p><strong>Contributing:</strong> Code, Docs</p>
+      <p>Contributed to the TOML specification, used as the configuration format by Rust's Cargo package manager, to bring it towards a stable 1.0 release.</p></div>
+
+      <div><h3>jubilee.dev</h3>
+      <p><strong>Contributing:</strong> DevOps, Design, Elixir</p>
+      <p>Designed, built, and hosted an Elixir-powered portfolio on Google Cloud Compute.</p></div>
+
+          <ul class="main--list">
+    <li><h3>Lambda School - Academy of Computer Science</h3>
+      <p>Full Stack Web Development</p>
+    </li>
+
+    <!-- Jubilee... Is -->
+    <!-- Jubilee... Builds -->
+    <!-- Jubilee... Explains -->
+
+    <!-- Jubilee... Is -->
+<!--
+❏ All links functional
+❏ Responsive layout
+❏ Unique, aesthetically pleasing design
+❏ Formatting consistent throughout
+❏ No typos, proofread for clarity and flow
+❏ Professional profile picture
+❏ Full name
+
+❏ Contact info
+❏ Links to all other artifacts
+
+❏ Personal mission statement: brief
+overview of what they do and why -->
+
+<!-- Jubilee... Explains -->
+<!-- Skills section:
+❏ List of all technical skills, methodologies and platforms related to their curriculum track -->
+
+
+<!-- Jubilee... Builds -->
+<!--     Projects Section, with each project containing:
+❏ Title
+❏ One sentence to describe what it does
+❏ Tech stack or sentence that says “Built using...”
+❏ Link to the deployed project (preferably hyperlinked to the title)
+
+❏ Link to Github repo
+❏ 2-3 bullets highlighting responsibilities, how technology was used,
+or accomplishments. Do not paragraph this information
+❏ At least two projects included -->
+
+<!-- <details>
+<summary>More information</summary>
+<p>Here is the source data that is discussed in the article ... </p>
+</details> -->
+<!-- 
+  <a href="#" class="my-name">jubilee.dev</a>
+  <ul class="list--skills">
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>Elixir</li>
+  <li>Rust</li>
+  <li>SQL</li>
+  <li>Linux</li>
+  <li>Bash</li>
+  <li>Amazon Web Services</li>
+  <li>Automated Testing</li>
+  <li>Continuous Deployment</li>
+  <li>HTML & CSS</li>
+</ul> -->
+
+
+
+
+
+<!--
+  Conceptually speaking, 
+  -->

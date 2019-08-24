@@ -11,7 +11,7 @@
   <body>
 
     <main role="main" class="grid">
-        <h1 class="my-name">Jubilee</h1>
+        <a href="#"><h1 class="my-name">Jubilee</h1></a>
         <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object>
 
     <div class="icon-links">
@@ -25,8 +25,11 @@
 
       <a href="https://twitter.com/workingjubilee" class="icon twitter" >
         <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
-      </a>
+      </a>              
     </div>
+    <!-- let's think about this -->
+    <!-- name, icons parallel? -->
+
 
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
@@ -40,7 +43,3 @@
   </body>
 </html>
 
-
-<!--
-  Conceptually speaking, 
-  -->

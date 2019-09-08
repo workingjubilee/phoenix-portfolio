@@ -11,8 +11,8 @@
   <body>
 
     <main role="main" class="grid">
-        <a href="#"><h1 class="my-name">Jubilee</h1></a>
-        <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object>
+        <a href="/" class="brand"><h1 class="my-name">Jubilee</h1>
+        <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object></a>
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >
@@ -25,10 +25,15 @@
 
       <a href="https://twitter.com/workingjubilee" class="icon twitter" >
         <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
-      </a>              
+      </a>
     </div>
-    <!-- let's think about this -->
-    <!-- name, icons parallel? -->
+
+    <section style="display: flex; flex-flow: column nowrap; padding: 3rem">
+      <a href="/projects">Builds</a>
+      <a href="/explains">Explains
+      <a href="/contact">Connects</a>
+    </section>
+
 
 
 

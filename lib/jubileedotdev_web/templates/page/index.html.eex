@@ -1,22 +1,20 @@
 
-   <div><h3>RxID</h3>
-      <p><strong>Contributing:</strong> DevOps, React.js, Node.js</p>
-      <p>Produced a continuous integration pipeline combining an ML-driven API served over Flask and a Node.js user backend</p></div>
-
-    <div><h3>Open Source</h3>
-      <p><strong>Contributing:</strong> Code, Docs</p>
-      <p>Contributed to the TOML specification, used as the configuration format by Rust's Cargo package manager, to bring it towards a stable 1.0 release.</p></div>
-
-      <div><h3>jubilee.dev</h3>
-      <p><strong>Contributing:</strong> DevOps, Design, Elixir</p>
-      <p>Designed, built, and hosted an Elixir-powered portfolio on Google Cloud Compute.</p></div>
-
-          <ul class="main--list">
-    <li><h3>Lambda School - Academy of Computer Science</h3>
-      <p>Full Stack Web Development</p>
-    </li>
-
     <!-- Jubilee... Is -->
+
+  <ul class="listskills">
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>Elixir</li>
+  <li>Rust</li>
+  <li>SQL</li>
+  <li>Linux</li>
+  <li>Bash</li>
+  <li>Git</li>
+  <li>Amazon Web Services</li>
+  <li>Automated Testing</li>
+  <li>Continuous Deployment</li>
+  <li>HTML and CSS</li>
+</ul>
     <!-- Jubilee... Builds -->
     <!-- Jubilee... Explains -->
 
@@ -35,6 +33,7 @@
 
 ❏ Personal mission statement: brief
 overview of what they do and why -->
+
 
 <!-- Jubilee... Explains -->
 <!-- Skills section:
@@ -59,7 +58,7 @@ or accomplishments. Do not paragraph this information
 </details> -->
 <!-- 
   <a href="#" class="my-name">jubilee.dev</a>
-  <ul class="list--skills">
+  <ul class="listskills">
   <li>JavaScript</li>
   <li>Python</li>
   <li>Elixir</li>
@@ -67,6 +66,7 @@ or accomplishments. Do not paragraph this information
   <li>SQL</li>
   <li>Linux</li>
   <li>Bash</li>
+  <li>Git</li>
   <li>Amazon Web Services</li>
   <li>Automated Testing</li>
   <li>Continuous Deployment</li>

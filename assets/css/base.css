@@ -28,12 +28,12 @@ body {
   max-width: 100%;
   margin: 0 auto;
   background-color: #06060B;
+  color: hsl(210,22%,90%, .90);
 }
 
 a {
   color: inherit;
   text-decoration-color: deeppink;
-  text-decoration-style: double;
 }
 
 a:link {}
@@ -42,12 +42,12 @@ a:hover {}
 a:active {}
 
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p, summary {
   font-family: 'Fira Sans', 'Georgia', serif;
-  color: hsl(210,22%,90%, .90);
   max-width: 40em; /* maintains 3 alphabet rule */
   line-height: 1.3;
 }
+
 
 .my-name {
   font-size: 4rem;
@@ -57,3 +57,125 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 1rem;
   text-align: right;
 }
+
+.brand {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+.cloudmark {
+  height: 4rem;
+  justify-self: start;
+  align-self: center;
+}
+
+.alert {
+  grid-area: 1 / span 1 / 1 / span 1;
+}
+
+a.icon {
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.icon > *:first-child {
+  min-height: 2rem;
+  min-width: 2rem;
+  width: 100%;
+  height: 100%;
+  max-height: 4rem;
+  max-width: 4rem;
+  filter: invert(100%);
+}
+
+.icon-links {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  align-self: center;
+}
+
+
+details, summary {
+  border: 1px solid red;
+}
+
+
+/*
+a {
+text-decoration: none;
+color: inherit;
+transition-property: background;
+transition-duration: 0.2s;
+
+}
+
+
+div.nav a:active div { background: #fdfdfd;
+}
+
+a:active { color: #777; }
+
+
+
+a:after {
+    position: relative;
+    content: "\FEFF°";
+    margin-left: 0.10em;
+    font-size: 90%;
+    top: -0.10em;
+    color: #933;
+    font-feature-settings: 'caps' 1; /* insures tallest degree is used */
+
+
+/*a[name]:after{ content: none;
+}
+
+a.no-symbol-before:hover {
+    background: none;
+}
+
+a.no-symbol-before:after {
+    content: none;
+}
+
+
+.type-specimen img { display: block;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.type-specimen a:after{
+    content: none;
+}
+
+
+div > a:after, a.xref:after,
+a.sample-document:after {
+    content: none;
+}
+
+
+a.xref {
+text-transform: lowercase;
+font-feature-settings: 'c2sc' 1;
+
+font-style: normal;
+hyphens: none;
+}
+
+a:hover {
+background: #fbf3f3;
+transition-property: background;
+transition-duration: 0.2s;
+
+border-radius: 8px;
+}
+
+.toc a, .toc a:hover {
+transition-property: background;
+transition-duration: 0s;
+
+}*/

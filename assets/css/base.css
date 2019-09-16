@@ -32,9 +32,9 @@ body {
   font-family: 'Fira Sans', 'Georgia', serif;
   font-size: calc(1rem + 0.5vmin);
 }
-/** {
+* {
   border: 1px solid red;
-}*/
+}
 
 a {
   color: inherit;

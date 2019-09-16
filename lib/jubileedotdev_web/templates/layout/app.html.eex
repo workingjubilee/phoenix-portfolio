@@ -10,13 +10,19 @@
   </head>
   <body>
 
-    <main role="main" class="grid">
+    <main role="main" class="layout">
       <div class="brand-container">
         <a href="/" class="brand"><h1 class="my-name">Jubilee</h1>
         <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object></a>
       </div>
 
-    <div class="icon-links">
+    <section style="display: flex; flex-flow: column nowrap; padding: 3rem">
+      <a href="/projects">Builds</a>
+      <a href="/explains">Explains</a>
+      <a href="/contact">Connects</a>
+    </section>
+
+    <div class="contacts" style="display: flex; flex-flow: row wrap; padding: 1rem;">
       <a href="https://github.com/workingjubilee" class="icon github" >
         <img src="/images/github.svg" />
       </a>
@@ -29,12 +35,6 @@
         <img src="/images/twitter.svg" />
       </a>
     </div>
-
-    <section style="display: flex; flex-flow: column nowrap; padding: 3rem">
-      <a href="/projects">Builds</a>
-      <a href="/explains">Explains
-      <a href="/contact">Connects</a>
-    </section>
 
 
 

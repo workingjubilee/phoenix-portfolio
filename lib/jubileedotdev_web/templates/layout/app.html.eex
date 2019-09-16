@@ -11,20 +11,22 @@
   <body>
 
     <main role="main" class="grid">
+      <div class="brand-container">
         <a href="/" class="brand"><h1 class="my-name">Jubilee</h1>
         <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object></a>
+      </div>
 
     <div class="icon-links">
       <a href="https://github.com/workingjubilee" class="icon github" >
-        <object type="image/svg+xml"  data="/images/github.svg">GitHub</object>
+        <img src="/images/github.svg" />
       </a>
 
       <a href="https://www.linkedin.com/in/jubilee-young/" class="icon linkedin" >
-        <object type="image/svg+xml" data="/images/linkedin.svg">LinkedIn</object>
+        <img src="/images/linkedin.svg" />
       </a>
 
       <a href="https://twitter.com/workingjubilee" class="icon twitter" >
-        <object type="image/svg+xml" data="/images/twitter.svg">Twitter</object>
+        <img src="/images/twitter.svg" />
       </a>
     </div>
 

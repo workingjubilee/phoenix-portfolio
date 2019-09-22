@@ -17,9 +17,9 @@
       </div>
 
     <section style="display: flex; flex-flow: column nowrap; padding: 3rem">
-      <a href="/projects">Builds</a>
-      <a href="/explains">Explains</a>
-      <a href="/contact">Connects</a>
+      <a class="navlink" href="/projects">Builds</a>
+      <a class="navlink" href="/explains">Explains</a>
+      <a class="navlink" href="/contact">Connects</a>
     </section>
 
     <div class="contacts" style="display: flex; flex-flow: row wrap; padding: 1rem;">

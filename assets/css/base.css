@@ -15,6 +15,16 @@
 <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet">
 */
 
+/*Steps to implement:
+  Logo:
+    1. Wrap name and cloud mark in a div to position them (or give the <a> display: block, height/width?)
+    2. Create a mobile style where logo appears at top
+    3. Create a desktop style where grid fixes logo to upper right
+  Builds:
+    1. Tweak layout for each project's data
+    2. Provide images, solid-ish links
+*/
+
 html {
   box-sizing: border-box;
 }
@@ -147,6 +157,9 @@ details, summary {
   display: none;
 }
 
+.navlink {
+  max-width: 15rem;
+}
 
 /*
 a {

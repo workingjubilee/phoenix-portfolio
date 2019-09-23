@@ -42,8 +42,9 @@ body {
   font-family: 'Fira Sans', 'Georgia', serif;
   font-size: calc(1rem + 0.5vmin);
 }
+
 * {
-  border: 0px solid red;
+  border: 1px solid red;
 }
 
 a {
@@ -74,35 +75,29 @@ h1,h2,h3,h4,h5,h6,p,summary {
 .my-name {
   font-size: 4rem;
   font-weight: bolder;
-  padding: 1rem;
+  padding: 0 0.5rem;
+  margin: 0;
   text-align: right;
 }
 
-/*.brand-container {
-  grid-row-start: 1;
-  grid-column-start: 2;
-}*/
 .brand {
   box-shadow: none;
   background-color: unset;
   text-shadow: 3px 3px indigo;
-  display: inline;
+  display: flex;
+  align-items: first baseline;
   text-decoration: none;
 }
 
 .brand > * {
-  display: inline;
   color: #87CEFA;
-  
 }
 .brand > h1 {
   color: hotpink;
 }
 
 .cloudmark {
-  height: 4rem;
-  justify-self: start;
-  align-self: stretch;
+  height: 3rem;
   text-decoration: none;
 }
 

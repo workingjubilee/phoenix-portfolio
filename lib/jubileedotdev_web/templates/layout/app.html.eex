@@ -14,7 +14,8 @@
     <section class="navsect">
       <div class="brand-container">
         <a href="/" class="brand"><h1 class="my-name">Jubilee</h1>
-        <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object></a>
+        <img src="/images/cloud-mark.svg" class="cloudmark" alt="in the clouds" />
+        </a>
       </div>
 
     <nav class="navi" style="display: flex; flex-flow: column nowrap; padding: 3rem">

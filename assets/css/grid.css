@@ -14,14 +14,16 @@
   height: 100vh;
 }
 
-/*@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
   .layout {
     margin: 0 auto;
     width: 100vw;
     height: 85vh;
     display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+    grid-gap: 2rem;
+/*    grid-template-rows: 1fr 1fr 1fr 1fr;*/
   }
-}*/
+}

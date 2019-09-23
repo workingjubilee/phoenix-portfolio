@@ -11,16 +11,17 @@
   <body>
 
     <main role="main" class="layout">
+    <section class="navsect">
       <div class="brand-container">
         <a href="/" class="brand"><h1 class="my-name">Jubilee</h1>
         <object type="image/svg+xml" data="/images/cloud-mark.svg" class="cloudmark">in the clouds</object></a>
       </div>
 
-    <section style="display: flex; flex-flow: column nowrap; padding: 3rem">
+    <nav class="navi" style="display: flex; flex-flow: column nowrap; padding: 3rem">
       <a class="navlink" href="/projects">Builds</a>
       <a class="navlink" href="/explains">Explains</a>
       <a class="navlink" href="/contact">Connects</a>
-    </section>
+    </nav>
 
     <div class="contacts" style="display: flex; flex-flow: row wrap; padding: 1rem;">
       <a href="https://github.com/workingjubilee" class="icon github" >
@@ -35,6 +36,7 @@
         <img src="/images/twitter.svg" />
       </a>
     </div>
+  </section>
 
 
 

@@ -37,13 +37,13 @@ body {
   max-height: 100%;
   max-width: 100%;
   margin: 0 auto;
-  background-color: #06060B;
+  background-color: #0C010F;
   color: #99BEFF;
   font-family: 'Fira Sans', 'Georgia', serif;
   font-size: calc(1rem + 0.5vmin);
 }
 * {
-  border: 1px solid red;
+  border: 0px solid red;
 }
 
 a {
@@ -74,21 +74,18 @@ h1,h2,h3,h4,h5,h6,p,summary {
 .my-name {
   font-size: 4rem;
   font-weight: bolder;
-  grid-row-start: 1;
-  grid-column-start: 1;
   padding: 1rem;
   text-align: right;
 }
 
-.brand-container {
+/*.brand-container {
   grid-row-start: 1;
-  grid-column-start: 1;
-}
+  grid-column-start: 2;
+}*/
 .brand {
   box-shadow: none;
   background-color: unset;
   text-shadow: 3px 3px indigo;
-  
   display: inline;
   text-decoration: none;
 }
@@ -108,6 +105,18 @@ h1,h2,h3,h4,h5,h6,p,summary {
   align-self: stretch;
   text-decoration: none;
 }
+
+.navsect {
+  grid-column: 2 / span 1;
+}
+
+/*.navi {
+  grid-column: 2 / span 1;
+}
+
+.contacts {
+  grid-column: 2 / span 1;
+}*/
 
 .icon {
   display: block;

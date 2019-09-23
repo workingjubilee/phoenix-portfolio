@@ -3,7 +3,6 @@ defmodule Jubileedotdev.Repo.Migrations.CreatePosts do
 
   def change do
     create table(:posts) do
-      add :id, :integer
       add :title, :string
       add :content, :text
       add :created, :utc_datetime

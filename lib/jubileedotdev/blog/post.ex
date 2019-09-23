@@ -5,7 +5,6 @@ defmodule Jubileedotdev.Blog.Post do
   schema "posts" do
     field :content, :string
     field :created, :utc_datetime
-    field :id, :integer
     field :title, :string
     field :updated, :utc_datetime
 
@@ -15,7 +14,7 @@ defmodule Jubileedotdev.Blog.Post do
   @doc false
   def changeset(post, attrs) do
     post
-    |> cast(attrs, [:id, :title, :content, :created, :updated])
-    |> validate_required([:id, :title, :content, :created, :updated])
+    |> cast(attrs, [:title, :content, :created, :updated])
+    |> validate_required([:title, :content, :created, :updated])
   end
 end

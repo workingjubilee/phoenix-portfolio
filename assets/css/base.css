@@ -42,10 +42,10 @@ body {
   font-family: 'Fira Sans', 'Georgia', serif;
   font-size: calc(1rem + 0.5vmin);
 }
-
+/*
 * {
   border: 1px solid red;
-}
+}*/
 
 a {
   color: inherit;
@@ -80,6 +80,12 @@ h1,h2,h3,h4,h5,h6,p,summary {
   text-align: right;
 }
 
+.brand-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
 .brand {
   box-shadow: none;
   background-color: unset;
@@ -103,6 +109,9 @@ h1,h2,h3,h4,h5,h6,p,summary {
 
 .navsect {
   grid-column: 2 / span 1;
+
+  text-align: center;
+  padding: 1rem;
 }
 
 /*.navi {
@@ -161,8 +170,15 @@ details, summary {
   display: none;
 }
 
+.navi {
+  display: flex; 
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3rem;
+}
+
 .navlink {
-  max-width: 15rem;
+  width: 13rem;
 }
 
 /*

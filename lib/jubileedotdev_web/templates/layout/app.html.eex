@@ -24,7 +24,7 @@
       <a class="navlink" href="/contact">Connects</a>
     </nav>
 
-    <div class="contacts" style="display: flex; flex-flow: row wrap; padding: 1rem;">
+    <div class="contacts" style="display: flex; flex-flow: row wrap; justify-content: center; padding: 1rem;">
       <a href="https://github.com/workingjubilee" class="icon github" >
         <img src="/images/github.svg" />
       </a>

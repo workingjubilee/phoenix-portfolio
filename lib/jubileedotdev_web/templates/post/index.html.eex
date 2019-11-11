@@ -1,4 +1,23 @@
-<h1>Listing Posts</h1>
+<div>
+<h1>Explanations</h1>
+
+<ul class="listskills">
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>Elixir</li>
+  <li>Rust</li>
+  <li>SQL</li>
+  <li>Linux</li>
+  <li>Bash</li>
+  <li>Git</li>
+  <li>Amazon Web Services</li>
+  <li>Automated Testing</li>
+  <li>Continuous Deployment</li>
+  <li>HTML and CSS</li>
+</ul>
+</div>
+
+<!-- <h1>Listing Posts</h1>
 
 <table>
   <thead>
@@ -31,4 +50,4 @@
   </tbody>
 </table>
 
-<span><%= link "New Post", to: Routes.post_path(@conn, :new) %></span>
+<span><%= link "New Post", to: Routes.post_path(@conn, :new) %></span> -->

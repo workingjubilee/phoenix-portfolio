@@ -26,6 +26,7 @@ defmodule JubileedotdevWeb.Router do
 
     # "resources" are used differently
     resources "/projects", ProjectController
+    resources "/explains", PostController
   end
 
   # scope "/projects", JubileedotdevWeb do
@@ -37,14 +38,14 @@ defmodule JubileedotdevWeb.Router do
   #   # specific projects should use more specific routes
   # end
 
-  scope "/explainer", JubileedotdevWeb do
-    pipe_through :browser
+  # scope "/explainer", JubileedotdevWeb do
+  #   pipe_through :browser
 
-    # scope for displaying projects
-    get "/", PageController, :explainer
-    # displays index of explainer
-    # specific explainer should use more specific routes
-  end
+  #   # scope for displaying projects
+  #   get "/", PageController, :explainer
+  #   # displays index of explainer
+  #   # specific explainer should use more specific routes
+  # end
 
   # Other scopes may use custom stacks.
   # scope "/api", JubileedotdevWeb do

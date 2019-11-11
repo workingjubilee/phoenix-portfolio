@@ -18,7 +18,7 @@
         </a>
       </div>
 
-    <nav class="navi" style="display: flex; flex-flow: column nowrap; padding: 3rem">
+    <nav class="navi">
       <a class="navlink" href="/projects">Builds</a>
       <a class="navlink" href="/explains">Explains</a>
       <a class="navlink" href="/contact">Connects</a>
